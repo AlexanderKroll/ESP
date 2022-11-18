@@ -2,11 +2,13 @@
 This repository contains the code and datasets to reproduce the results and figures and to train the models from our paper "The substrate scopes of enzymes: a general prediction model based on machine and deep learning".
 
 
-#### For people interested in using the trained prediction model, we implemented a [web server](https://esp.cs.hhu.de/) that allows an easy use of our trained model. The prediction tool can be run in a web-browser and does not require the installation of any software. Prediction results are usually ready within a few minutes.
+#### For people interested in using the trained prediction model, we implemented a [web server](https://esp.cs.hhu.de/) that allows an easy use of our trained model. The prediction tool can be run in a web-browser and does not require the installation of any software. Prediction results are usually ready within a few minutes. Example inputs can be found on the homepage.
 
+## Using code and reporducing results
+All code to reproduce the results is available in the form of Jupyter Notebooks in the folder "notebooks_and_code". All code and produced output files are available in the folder "data".
 
 ## Requirements for running the code in this GitHub repository
-
+The code was implemented and tested on Windows with the following packages and versions (installation took ~20 minutes)
 - python 3.7.7
 - jupyter
 - pandas 1.3.0
