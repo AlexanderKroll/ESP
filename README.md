@@ -4,6 +4,8 @@ This repository contains the code and datasets to reproduce the results and figu
 
 #### For people interested in using the trained prediction model, we implemented a [web server](https://esp.cs.hhu.de/) that allows an easy use of our trained model. The prediction tool can be run in a web-browser and does not require the installation of any software. Prediction results are usually ready within a few minutes. Example inputs can be found on the homepage.
 
+#### For people interested in using a python function to achieve predictions of the trained model, we created a [GitHub repository](https://github.com/AlexanderKroll/ESP_prediction_function) that allows an easy use of our trained model.
+
 ## Using code and reporducing results
 All code to reproduce the results is available in the form of Jupyter Notebooks in the folder "notebooks_and_code". All code and produced output files are available in the folder "data".
 
