@@ -11,8 +11,8 @@ import os
 from os.path import join
 
 CURRENT_DIR = os.getcwd() 
-datasets_PubChem = "D:\\projects_deutschland\\Prediction_of_KM_V3\\datasets\\substrate_synonyms"
-mol_folder = "C:\\Users\\alexk\\mol-files\\"
+datasets_PubChem = join(CURRENT_DIR, ".." ,"additional_data_ESP", "substrate_synonyms")
+mol_folder = join(CURRENT_DIR, ".." ,"additional_data_ESP", "mol-files")
 
 df_UID_MID = pd.read_pickle(join(CURRENT_DIR, ".." ,"data", "enzyme_substrate_data", "df_UID_MID.pkl"))
 df_chebi_to_inchi = pd.read_csv(join(CURRENT_DIR, ".." ,"data", "substrate_data", "chebiID_to_inchi.tsv"), sep = "\t")
