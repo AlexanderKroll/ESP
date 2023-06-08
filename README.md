@@ -10,7 +10,7 @@ This repository contains the code and datasets to reproduce the results and figu
 Before you can run all scripts of this repository, you need to [download and unzip an additional data folder from Zenodo](https://doi.org/10.5281/zenodo.8016269).
 Afterwards, this repository should have the following strcuture:
 
-    ├── code                   
+    ├── notebooks_and_code
     ├── data
     ├── additional_data_ESP            
     └── README.md
