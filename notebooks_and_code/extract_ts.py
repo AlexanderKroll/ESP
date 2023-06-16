@@ -6,6 +6,7 @@
 
 import argparse
 import pathlib
+from os.path import join
 
 import torch
 
@@ -68,7 +69,7 @@ def main(args):
         model = model.cuda()
         print("Transferred model to GPU")
 
-    PATH = '/gpfs/project/alkro105/ESM/models/model_ESM_binary_A100_epoch_1_new_split.pkl'
+    PATH = join( ".." ,"additional_data_ESP", "model_weights", '/model_ESM_binary_A100_epoch_1_new_split.pkl')
     model_dict = torch.load(PATH, map_location="cuda")
     model_dict_V2 = {k.split("model.")[-1]: v for k, v in model_dict.items()}
 

@@ -7,7 +7,7 @@ This repository contains the code and datasets to reproduce the results and figu
 #### For people interested in using a python function to achieve predictions of the trained model, we created a [GitHub repository](https://github.com/AlexanderKroll/ESP_prediction_function) that allows an easy use of our trained model.
 
 ## Downloading data folder
-Before you can run all scripts of this repository, you need to [download and unzip an additional data folder from Zenodo](https://doi.org/10.5281/zenodo.8016269).
+Before you can run all scripts of this repository, you need to [download and unzip an additional data folder from Zenodo](https://doi.org/10.5281/zenodo.8046141).
 Afterwards, this repository should have the following strcuture:
 
     ├── notebooks_and_code
