@@ -88,7 +88,7 @@ def find_substrates(definition):
                 print("Could not find substrate in the following definition: %s" % definition)
             substrates = substrates.replace(" + ", ";")
             substrates = substrates.split(";")
-            substrates = progress_metabolites(metabolites_list = substrates)
+            substrates = process_metabolites(metabolites_list = substrates)
             successfull = True
         except:
             pass
